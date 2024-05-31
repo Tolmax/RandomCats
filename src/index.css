@@ -54,6 +54,13 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 450px) {
+    .img {
+        height: 90px;
+        width: 50px;
+     }
+   }
+
 .cards {
     width:380px;
     height: 450px;
