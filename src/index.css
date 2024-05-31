@@ -69,7 +69,7 @@ body {
 }
 
 @media (max-width: 450px) {
-    .img {
+    .cards {
         height: 390px;
         width: 320px;
      }
