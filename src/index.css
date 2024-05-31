@@ -54,13 +54,6 @@ body {
     object-fit: cover;
 }
 
-@media (max-width: 450px) {
-    .img {
-        height: 90px;
-        width: 50px;
-     }
-   }
-
 .cards {
     width:380px;
     height: 450px;
@@ -74,6 +67,13 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+@media (max-width: 450px) {
+    .img {
+        height: 390px;
+        width: 320px;
+     }
+   }
 
 .button {
     padding: 10px;
