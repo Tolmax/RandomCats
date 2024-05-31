@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.querySelector(".button"),r=document.querySelector(".img");t.addEventListener("click",(function(){return fetch("https://cataas.com/cat").then((function(t){t.json(),r.src=t.url})).catch((function(t){return console.error("Error:",t)}))}))})();
